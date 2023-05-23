@@ -1,0 +1,22 @@
+
+#grid {
+  display: grid;
+  height: 900px;
+  width: 900px; 
+  grid-template-columns: repeat(16, auto);
+}
+
+.div {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(68, 63, 63);
+  padding: 0px;
+}
+
+#grid > div:hover {
+  background-color: aqua;
+}
+
+.changeColor {
+  background-color: blue;
+}
